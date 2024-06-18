@@ -7,11 +7,12 @@ This can be useful for adding watermarks, subtitles, or any other textual overla
 - OpenCV (opencv-python) (`pip install opencv-python`)
 
 ## Usage
-- Clone this repository or download the video_text_overlay.py script.
+- Clone this repository or download the `auto_watermark_video.py` script.
 - Open the terminal or command prompt.
-- Navigate to the directory containing the video_text_overlay.py script.
+- Navigate to the directory containing the `auto_watermark_video.py` script.
+- Put your videos in the same folder of the script
 - Run the script with the following command :
-`python video_text_overlay.py`
+`python auto_watermark_video.py`
 
 ## Parameters
 You can customize the following parameters in the script:
