@@ -42,6 +42,3 @@ opacity = 0.5  # 50% opacity
 ## Note
 - Make sure your video files are in the supported format (e.g., .mp4).
 - The script will save the modified videos in the same folder with a prefix output_.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
