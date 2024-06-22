@@ -4,6 +4,7 @@ This can be useful for adding watermarks, subtitles, or any other textual overla
 
 ## Requirements
 - [Python 3.x](https://www.python.org)
+- [ImageMagick](https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-33-Q16-x64-dll.exe)
 
 ## Usage
 - Clone this repository. (`git clone https://github.com/astroyama-1911/auto-watermark-video.git`)
