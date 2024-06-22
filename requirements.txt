@@ -1,0 +1,23 @@
+# moviepy: for video processing
+moviepy==1.0.3
+
+# numpy: a dependency of moviepy
+numpy==1.24.2
+
+# decorator: a dependency of moviepy
+decorator==4.4.2
+
+# imageio: used by moviepy for reading and writing videos
+imageio==2.9.0
+
+# imageio-ffmpeg: used by moviepy for reading and writing videos with ffmpeg
+imageio-ffmpeg==0.4.2
+
+# requests: used by moviepy for downloading files if needed
+requests==2.27.1
+
+# Pillow: used by moviepy for image manipulation
+Pillow==9.0.1
+
+# tqdm: used by moviepy for displaying progress bars
+tqdm==4.64.0
