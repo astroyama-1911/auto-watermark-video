@@ -4,12 +4,12 @@ This can be useful for adding watermarks, subtitles, or any other textual overla
 
 ## Requirements
 - [Python 3.x](https://www.python.org)
-- OpenCV (opencv-python) (`pip install opencv-python`)
 
 ## Usage
-- Clone this repository or download the `auto_watermark_video.py` script.
+- Clone this repository. (`git clone https://github.com/astroyama-1911/auto-watermark-video.git`)
 - Open the terminal or command prompt.
-- Navigate to the directory containing the `auto_watermark_video.py` script.
+- Navigate to the repository folder.
+- Install the requirements (`pip install -r requirements.txt`)
 - Put your videos in the same folder of the script
 - Run the script with the following command :
 `python auto_watermark_video.py`
