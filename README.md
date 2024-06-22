@@ -18,27 +18,33 @@ This can be useful for adding watermarks, subtitles, or any other textual overla
 ## Parameters
 You can customize the following parameters in the script:
 
-`folder_path` : Path to the folder containing your video files.
+`folder_path` : Path to the folder containing the MP4 videos.
 
-`text` : The text you want to overlay on the videos.
+`text` : The text you want to add as a watermark.
 
-`position` : Position of the text (x, y) coordinates on the video.
+`position` : Position of the text (e.g., ('center', 'center') for center).
 
 `font_size` : Font size of the text.
 
-`color` : Color of the text in BGR format (e.g., white is (255, 255, 255)).
+`color` : Color of the text.
 
-`opacity` : Opacity of the text (0.0 to 1.0).
+`opacity` : Opacity of the text (e.g., 0.5 for 50%).
+
+`stroke_color` : Color of the text outline.
+
+`stroke_width` : Width of the text outline.
 
 ### Example :
 
 ```
-folder_path = 'path/to/your/video/folder' 
-text = 'Your Text' 
-position = (50, 50)  # (x, y) 
-font_size = 1  # Scale factor for font size 
-color = (255, 255, 255)  # White color 
-opacity = 0.5  # 50% opacity 
+folder_path = 'C:\\Users\\YourUsername\\Desktop\\videos'  # Replace with your folder path containing the videos
+text = 'Your Text'  # The text you want to add
+position = ('center', 'center')  # Position of the text
+font_size = 23  # Font size of the text
+color = 'white'  # Text color
+opacity = 0.5  # Text opacity
+stroke_color = 'black'  # Outline color
+stroke_width = 2  # Outline width
 ```
 
 ## Note
